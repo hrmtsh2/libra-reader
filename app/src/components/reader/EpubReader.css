@@ -1,0 +1,95 @@
+.epub-reader-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.epub-reader-content {
+  height: 100%;
+  width: 100%;
+}
+
+.react-reader {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.react-reader .container {
+  height: 100% !important;
+  max-height: none !important;
+}
+
+.react-reader .readerArea {
+  height: 100% !important;
+  transition: all 0.3s ease;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.highlight-yellow {
+  background-color: #fef08a !important;
+}
+
+.highlight-blue {
+  background-color: #bfdbfe !important;
+}
+
+.highlight-green {
+  background-color: #bbf7d0 !important;
+}
+
+.highlight-pink {
+  background-color: #fbcfe8 !important;
+}
+
+.dark .highlight-yellow {
+  background-color: #fbbf24 !important;
+}
+
+.dark .highlight-blue {
+  background-color: #3b82f6 !important;
+}
+
+.dark .highlight-green {
+  background-color: #10b981 !important;
+}
+
+.dark .highlight-pink {
+  background-color: #ec4899 !important;
+}
+
+.page-transition {
+  transition: opacity 0.2s ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.progress-bar {
+  transition: width 0.3s ease;
+}
